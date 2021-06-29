@@ -1,0 +1,9 @@
+$heading-color-one: #000;
+$heading-font-size: 3rem;
+
+//MIXINS
+@mixin basic-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

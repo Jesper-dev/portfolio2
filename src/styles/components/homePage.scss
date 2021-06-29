@@ -1,0 +1,11 @@
+@use '../utilities/variables' as var;
+
+.homePageContainer {
+  height: inherit;
+  @include var.basic-flex-container;
+  h1 {
+    font-size: var.$heading-font-size;
+    color: var.$heading-color-one;
+    margin: 0%;
+  }
+}

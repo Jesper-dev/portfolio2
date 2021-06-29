@@ -1,10 +1,13 @@
 import React from 'react';
+import './styles/app.scss'
+import { HomePage } from './components/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Jesper = Awesome</h1>
-    </div>
+    <main className="pageContainer">
+      {/* Componentes goes here */}
+      <HomePage />
+    </main>
   );
 }
 
