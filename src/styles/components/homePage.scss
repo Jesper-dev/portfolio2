@@ -1,11 +1,26 @@
 @use '../utilities/variables' as var;
 
 .homePageContainer {
-  height: inherit;
-  @include var.basic-flex-container;
-  h1 {
-    font-size: var.$heading-font-size;
-    color: var.$heading-color-one;
-    margin: 0%;
+  @include var.basic-flex-container-row;
+  //   min-height: calc(100vh - 1rem);
+  height: 90vh;
+  font-family: var.$font-style-main;
+
+  .textContainer {
+    @include var.basic-flex-container-column;
+    align-items: flex-start;
+    width: 50%;
+    height: 50%;
+
+    h1 {
+      font-size: var.$heading-font-size-medium;
+      color: var.$heading-color-one;
+      margin: 0%;
+    }
+
+    p {
+      font-size: var.$text-font-size-medium;
+      width: 90%;
+    }
   }
 }
