@@ -21,6 +21,19 @@
     p {
       font-size: var.$text-font-size-medium;
       width: 90%;
+
+      span {
+        color: var.$span-color-one;
+      }
+    }
+  }
+
+  .linkContainer {
+    a {
+      color: black;
+      cursor: pointer;
+      font-size: 2rem;
+      padding: 4px 8px;
     }
   }
 }

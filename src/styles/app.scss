@@ -1,7 +1,13 @@
-// @use 'utilities/variables';
+@use 'utilities/variables' as var;
 
 //SASS Components here
 @use 'components/homePage';
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: var.$background-color-one;
+}
 
 // .pageContainer {
 //   height: 100vh;
