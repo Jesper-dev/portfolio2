@@ -2,14 +2,13 @@
 
 .homePageContainer {
   @include var.basic-flex-container-row;
-  //   min-height: calc(100vh - 1rem);
   height: 90vh;
   font-family: var.$font-style-main;
 
   .textContainer {
     @include var.basic-flex-container-column;
     align-items: flex-start;
-    width: 50%;
+    width: 60%;
     height: 50%;
 
     h1 {
@@ -34,6 +33,10 @@
       cursor: pointer;
       font-size: 2rem;
       padding: 4px 8px;
+
+      &:hover {
+        opacity: 50%;
+      }
     }
   }
 }
