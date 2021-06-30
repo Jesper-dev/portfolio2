@@ -5,7 +5,7 @@
 $heading-color-one: #000;
 $heading-color-white: #fff;
 $background-color-one: #ededed;
-$span-color-one: #ff0000;
+$span-color-one: #218622;
 //HEADING
 $heading-font-size-small: 3rem;
 $heading-font-size-medium: 4rem;
@@ -32,6 +32,17 @@ $icon-font-size: 5rem;
   justify-content: center;
 }
 
-@mixin circle-base {
-  border-radius: 50%;
+@mixin section-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 2px solid black;
+  font-family: $font-style-second;
+
+  h1 {
+    margin: 0%;
+    font-family: $font-style-second;
+    font-size: $heading-font-size-small;
+  }
 }

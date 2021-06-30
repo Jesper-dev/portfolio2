@@ -11,7 +11,7 @@ export const Skills: React.FC = () => {
 
   return (
     <section className="skillsContainer">
-      <div className="titleContainer">
+      <div className="header">
         <h1>Skills</h1>
       </div>
       <div className="skillsIconsWrapper">

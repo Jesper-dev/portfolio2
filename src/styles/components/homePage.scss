@@ -2,7 +2,7 @@
 
 .homePageContainer {
   @include var.basic-flex-container-row;
-  height: 90vh;
+  height: 100vh;
   font-family: var.$font-style-main;
 
   .textContainer {

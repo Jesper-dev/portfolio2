@@ -1,0 +1,22 @@
+@use '../utilities/variables' as var;
+
+.aboutContainer {
+  @include var.basic-flex-container-column;
+  justify-content: flex-start;
+  height: 70vh;
+  width: 80%;
+
+  .header {
+    @include var.section-header;
+  }
+
+  .contentContainer {
+    // border: 1px solid black;
+    width: 95%;
+
+    p {
+      font-size: var.$text-font-size-medium;
+      font-family: var.$font-style-icons;
+    }
+  }
+}

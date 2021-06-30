@@ -2,7 +2,8 @@
 
 //SASS Components here
 @use 'components/homePage';
-@use 'components/skills.scss';
+@use 'components/skills';
+@use 'components/about';
 
 body {
   margin: 0%;

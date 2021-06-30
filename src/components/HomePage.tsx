@@ -15,7 +15,7 @@ export const HomePage: React.FC = () => {
       <div className="textContainer">
         <h1>Hello!</h1>
         <p>
-          My name is Jesper <span>Pettersson</span> and i'm currently studying
+          My name is <span>Jesper Pettersson</span> and i'm currently studying
           to become a <span>Front-End Developer</span>!
         </p>
         <div className="linkContainer">
