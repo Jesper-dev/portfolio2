@@ -1,0 +1,58 @@
+@use '../utilities/variables' as var;
+
+.projectsContainer {
+  @include var.basic-flex-container-column;
+  height: 100vh;
+  width: 80%;
+
+  .header {
+    @include var.section-header;
+  }
+
+  .projectWrapper {
+    @include var.basic-flex-container-column;
+    // border: 1px solid black;
+    border-bottom: 1px solid lightgrey;
+    width: 80%;
+    margin: 16px;
+    font-family: var.$font-style-second;
+
+    h1 {
+      font-size: var.$heading-font-size-small;
+      margin: 0%;
+    }
+
+    .innerWrapper {
+      @include var.basic-flex-container-row;
+      width: 100%;
+
+      .contentLeft {
+        width: 40%;
+
+        img {
+          width: 400px;
+          border-radius: 20px;
+        }
+      }
+
+      .contentRight {
+        width: 60%;
+        font-size: var.$link-font-size;
+
+        .techsList {
+          text-transform: bulletpoints;
+        }
+      }
+    }
+
+    a {
+      font-size: var.$link-font-size;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        opacity: 50%;
+      }
+    }
+  }
+}

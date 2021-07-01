@@ -3,7 +3,7 @@
 .aboutContainer {
   @include var.basic-flex-container-column;
   justify-content: flex-start;
-  height: 70vh;
+  height: 50vh;
   width: 80%;
 
   .header {

@@ -11,7 +11,7 @@ export const HomePage: React.FC = () => {
   ];
 
   return (
-    <section className="homePageContainer">
+    <section className="homePageContainer" id="home">
       <div className="textContainer">
         <h1>Hello!</h1>
         <p>
