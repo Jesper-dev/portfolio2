@@ -1,0 +1,22 @@
+@use '../utilities/variables' as var;
+
+.navbar {
+  position: fixed;
+  border-bottom: 1px solid lightgrey;
+  top: 1%;
+  right: 1%;
+  width: 30%;
+  @include var.basic-flex-container-row;
+  justify-content: space-around;
+  font-family: var.$font-style-icons;
+
+  a {
+    font-size: var.$link-font-size;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 50%;
+    }
+  }
+}

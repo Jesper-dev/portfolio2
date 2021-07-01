@@ -17,6 +17,7 @@ $font-style-second: "Titillium Web", sans-serif;
 $font-style-icons: "Nunito", sans-serif;
 //MISC
 $icon-font-size: 5rem;
+$link-font-size: 1.5rem;
 
 //MIXINS
 @mixin basic-flex-container-row {
@@ -44,5 +45,6 @@ $icon-font-size: 5rem;
     margin: 0%;
     font-family: $font-style-second;
     font-size: $heading-font-size-small;
+    color: $span-color-one;
   }
 }

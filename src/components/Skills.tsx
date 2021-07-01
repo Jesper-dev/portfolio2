@@ -10,11 +10,11 @@ export const Skills: React.FC = () => {
   ];
 
   return (
-    <section className="skillsContainer">
+    <section className="skillsContainer" id="skills">
       <div className="header">
-        <h1>Skills</h1>
+        <h1>Skills📚</h1>
       </div>
-      <div className="skillsIconsWrapper">
+      <div className="skillsIconsWrapper" data-aos="flip-down">
         {iconsList.map((item, i) => {
           return (
             <div key={i} className="iconWrapper">
