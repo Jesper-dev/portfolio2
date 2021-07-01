@@ -3,7 +3,7 @@ export const Skills: React.FC = () => {
     { icon: "fab fa-html5", style: "red", text: "HTML" },
     { icon: "fab fa-css3", style: "blue", text: "CSS3" },
     { icon: "fab fa-sass", style: "pink", text: "SASS" },
-    { icon: "fab fa-js-square", style: "yellow", text: "JAVASCRIPT" },
+    { icon: "fab fa-js-square", style: "#FFDF00", text: "JAVASCRIPT" },
     { icon: "fab fa-react", style: "blue", text: "REACT" },
     { icon: "fab fa-git-alt", style: "crimson", text: "GIT" },
     { icon: "fab fa-github-square", style: "black", text: "GITHUB" },
