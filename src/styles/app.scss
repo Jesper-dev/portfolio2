@@ -11,8 +11,76 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: var.$background-color-one;
+  background-color: var.$background-color-light;
   box-sizing: border-box;
+}
+
+//When its dark-theme
+.darkTheme {
+  margin: 0%;
+  padding: 0%;
+  background-color: var.$background-color-dark;
+  box-sizing: border-box;
+  color: #dfdfdf;
+
+  .pageContainer {
+    .homePageContainer {
+      .textContainer {
+        p {
+          span {
+            color: var.$span-color-light;
+          }
+        }
+      }
+      h1 {
+        color: #dfdfdf;
+      }
+
+      .linkContainer {
+        a {
+          color: #dfdfdf;
+        }
+      }
+    }
+  }
+
+  .aboutContainer {
+    .header {
+      h1 {
+        color: var.$span-color-light;
+      }
+    }
+  }
+  .skillsContainer {
+    .header {
+      h1 {
+        color: var.$span-color-light;
+      }
+    }
+  }
+  .projectsContainer {
+    .header {
+      h1 {
+        color: var.$span-color-light;
+      }
+    }
+    .projectWrapper {
+      a {
+        color: #dfdfdf;
+      }
+    }
+  }
+
+  .footer {
+    background-color: #8e8e8e;
+    color: #dfdfdf;
+
+    .linksWrapper {
+      a {
+        color: #dfdfdf;
+      }
+    }
+  }
 }
 
 .pageContainer {
