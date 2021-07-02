@@ -12,7 +12,7 @@ export const ProjectItem = ({ title, desc, techs, url, pic }: Project) => {
       <h1>{title}</h1>
       <div className="innerWrapper">
         <div className="contentLeft">
-          <img src={pic} />
+          <img src={pic} alt="Screenshot of the website" />
         </div>
         <div className="contentRight">
           <p>{desc}</p>

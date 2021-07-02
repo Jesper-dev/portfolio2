@@ -2,7 +2,7 @@
 
 .skillsContainer {
   @include var.basic-flex-container-column;
-  height: 120vh;
+  height: 80vh;
   width: 80%;
 
   .header {

@@ -7,6 +7,7 @@ import { Skills } from "./components/Skills";
 import { About } from "./components/About";
 import { Navbar } from "./components/Navbar";
 import { ProjectsPage } from "./components/projects/ProjectsPage";
+import { Footer } from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -16,14 +17,17 @@ function App() {
   }, []);
 
   return (
-    <main className="pageContainer">
-      {/* Componentes goes here */}
+    <>
       <Navbar />
-      <HomePage />
-      <About />
-      <Skills />
-      <ProjectsPage />
-    </main>
+      <main className="pageContainer">
+        {/* Componentes goes here */}
+        <HomePage />
+        <About />
+        <Skills />
+        <ProjectsPage />
+      </main>
+      <Footer />
+    </>
   );
 }
 

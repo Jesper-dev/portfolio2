@@ -1,5 +1,4 @@
 import { ProjectItem } from "./ProjectItem";
-import { useEffect, useState } from "react";
 import LetsVest from "./img/LetsVest.jpg";
 import culcitra from "./img/culcitra.jpg";
 import photoportfolio from "./img/photoportfolio.jpg";
