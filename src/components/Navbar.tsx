@@ -16,6 +16,12 @@ export const Navbar: React.FC = () => {
           </Link>
         );
       })}
+      <div className="themeSwitchWrapper">
+        <label className="themeSwitch" htmlFor="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <div className="slider round"></div>
+        </label>
+      </div>
     </nav>
   );
 };
