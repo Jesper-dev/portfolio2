@@ -16,7 +16,10 @@ export const HomePage: React.FC = () => {
         <h1>Hello!</h1>
         <p>
           My name is <span>Jesper Pettersson</span> and I'm currently studying
-          to become a <span>Front-End Developer</span>!
+          to become a <span>Front-End Developer</span>! <br /> <br />
+        </p>
+        <p className="lookingForContainer">
+          <em>Looking for freelance opportunities and also hiring jobs.</em>
         </p>
         <div className="linkContainer">
           {/* Renders all the icons/links on the home page */}

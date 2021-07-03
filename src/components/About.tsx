@@ -8,7 +8,8 @@ export const About: React.FC = () => {
         <p>
           My name is <em>Jesper Pettersson</em> and I'm from{" "}
           <strong>Sweden, Uppsala</strong>. I'm currently studying to become a
-          front-end developer at <strong>KYH, Stockholm</strong>. My interests
+          front-end developer at <strong>KYH, Stockholm</strong>. My journey to
+          become a web developer started around one year ago. My interests
           include space, our earth, such as nature and animals, and of course
           programming. I love to do all kinds of different projects but the ones
           that challenge me and makes me become a better webdeveloper are my
