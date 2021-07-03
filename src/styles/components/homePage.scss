@@ -11,6 +11,11 @@
     width: 60%;
     height: 50%;
 
+    @include var.mobileView {
+      width: 90%;
+      height: 100vh;
+    }
+
     h1 {
       font-size: var.$heading-font-size-medium;
       color: var.$heading-color-one;
@@ -20,6 +25,11 @@
     p {
       font-size: var.$text-font-size-medium;
       width: 90%;
+
+      @include var.mobileView {
+        width: 100%;
+        font-size: var.$text-font-size-mobile;
+      }
 
       span {
         color: var.$span-color-one;

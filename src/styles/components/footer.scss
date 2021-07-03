@@ -20,11 +20,20 @@
     justify-content: space-around;
     margin-bottom: 20px;
 
+    @include var.mobileView {
+      @include var.basic-flex-container-column;
+    }
+
     a {
       text-decoration: none;
       color: black;
       font-size: var.$text-font-size-small;
       font-family: var.$font-style-icons;
+
+      @include var.mobileView {
+        font-size: var.$text-font-size-mobile;
+        margin: 4px;
+      }
 
       &:hover {
         opacity: 50%;

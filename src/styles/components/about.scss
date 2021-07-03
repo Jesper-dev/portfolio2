@@ -6,6 +6,11 @@
   height: 50vh;
   width: 80%;
 
+  @include var.mobileView {
+    height: 120vh;
+    width: 90%;
+  }
+
   .header {
     @include var.section-header;
   }
@@ -17,6 +22,10 @@
     p {
       font-size: var.$text-font-size-medium;
       font-family: var.$font-style-icons;
+
+      @include var.mobileView {
+        font-size: var.$text-font-size-mobile;
+      }
     }
   }
 }

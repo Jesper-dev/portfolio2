@@ -5,6 +5,10 @@
   // height: 100vh;
   width: 80%;
 
+  @include var.mobileView {
+    width: 90%;
+  }
+
   .header {
     @include var.section-header;
   }
@@ -17,27 +21,57 @@
     margin: 16px;
     font-family: var.$font-style-second;
 
+    @include var.mobileView {
+      width: 100%;
+    }
+
     h1 {
       font-size: var.$heading-font-size-small;
       margin: 0%;
+
+      @include var.mobileView {
+        font-size: var.$heading-font-size-mobile;
+      }
     }
 
     .innerWrapper {
       @include var.basic-flex-container-row;
       width: 100%;
 
+      @include var.mobileView {
+        @include var.basic-flex-container-column;
+      }
+
       .contentLeft {
         width: 40%;
+
+        @include var.mobileView {
+          @include var.basic-flex-container-row;
+          width: 100%;
+        }
 
         img {
           width: 400px;
           border-radius: 20px;
+
+          @include var.mobileView {
+            width: 200px;
+          }
         }
       }
 
       .contentRight {
         width: 60%;
         font-size: var.$link-font-size;
+
+        @include var.mobileView {
+          font-size: var.$text-font-size-mobile;
+          width: 100%;
+        }
+
+        @include var.mobileView {
+          width: 100%;
+        }
 
         .techsList {
           text-transform: bulletpoints;
@@ -49,6 +83,10 @@
       font-size: var.$link-font-size;
       text-decoration: none;
       color: black;
+
+      @include var.mobileView {
+        font-size: var.$text-font-size-mobile-bigger;
+      }
 
       &:hover {
         opacity: 50%;

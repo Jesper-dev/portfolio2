@@ -25,7 +25,9 @@ export const ProjectItem = ({ title, desc, techs, url, pic }: Project) => {
           })}
         </div>
       </div>
-      <a href={url}>Visit</a>
+      <a href={url} target="_blank" rel="noreferrer noopener">
+        Visit
+      </a>
     </div>
   );
 };

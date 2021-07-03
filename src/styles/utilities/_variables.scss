@@ -20,6 +20,14 @@ $font-style-icons: "Nunito", sans-serif;
 //MISC
 $icon-font-size: 5rem;
 $link-font-size: 1.5rem;
+//MOBILE
+$text-font-size-mobile: 1.2rem;
+$text-font-size-mobile-smaller: 1rem;
+$text-font-size-mobile-footer: 0.9rem;
+$text-font-size-mobile-bigger: 1.5rem;
+$heading-font-size-mobile: 2.5rem;
+$text-font-size-nav-mobile: 1.1rem;
+$icon-font-size-mobile: 3rem;
 
 //MIXINS
 @mixin basic-flex-container-row {
@@ -48,5 +56,16 @@ $link-font-size: 1.5rem;
     font-family: $font-style-second;
     font-size: $heading-font-size-small;
     color: $span-color-one;
+
+    @include mobileView() {
+      font-size: $heading-font-size-mobile;
+    }
+  }
+}
+
+//FOR MOBILE
+@mixin mobileView {
+  @media (max-width: 500px) {
+    @content;
   }
 }
