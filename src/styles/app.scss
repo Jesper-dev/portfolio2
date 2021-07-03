@@ -39,6 +39,10 @@ body {
       .linkContainer {
         a {
           color: #dfdfdf;
+
+          &:hover {
+            color: var.$span-color-one;
+          }
         }
       }
     }

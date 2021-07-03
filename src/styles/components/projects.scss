@@ -72,10 +72,6 @@
         @include var.mobileView {
           width: 100%;
         }
-
-        .techsList {
-          text-transform: bulletpoints;
-        }
       }
     }
 
@@ -89,7 +85,7 @@
       }
 
       &:hover {
-        opacity: 50%;
+        text-decoration: underline;
       }
     }
   }
