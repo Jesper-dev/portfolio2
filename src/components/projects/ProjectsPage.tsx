@@ -2,6 +2,7 @@ import { ProjectItem } from "./ProjectItem";
 import LetsVest from "./img/LetsVest.jpg";
 import culcitra from "./img/culcitra.jpg";
 import photoportfolio from "./img/photoportfolio.jpg";
+import blogts from "./img/blogts.jpg";
 
 export const ProjectsPage: React.FC = () => {
   const projects: {
@@ -31,6 +32,13 @@ export const ProjectsPage: React.FC = () => {
       desc: "This is a simple project where i made a photo portfolio. This was challenging for me at that time because i was new to Vue and Nuxt. But if you know Vue and Nuxt the project itself is not very challenging, it's a good beginner project.",
       techs: ["Nuxt"],
       pic: photoportfolio,
+    },
+    {
+      title: "BlogTS",
+      url: "https://jesperpblogts.surge.sh/",
+      desc: "This website is made using React, TypeScript, Sass and Firebase. I made this website to learn more TypeScript and it paid of. It's a simple blog where I can add posts and other people can read and comment on them if they want to. ",
+      techs: ["React", "Sass", "TypeScript", "Firebase"],
+      pic: blogts,
     },
   ];
 
