@@ -65,7 +65,7 @@ $icon-font-size-mobile: 3rem;
 
 //FOR MOBILE
 @mixin mobileView {
-  @media (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     @content;
   }
 }

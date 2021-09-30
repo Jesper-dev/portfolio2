@@ -35,7 +35,9 @@ body {
   background-color: var.$background-color-dark;
   box-sizing: border-box;
   color: #dfdfdf;
-
+  .navbar {
+    background-color: var.$background-color-dark;
+  }
   .pageContainer {
     .homePageContainer {
       .textContainer {
@@ -84,6 +86,23 @@ body {
     .projectWrapper {
       a {
         color: #dfdfdf;
+      }
+    }
+  }
+
+  .contactContainer {
+    .header {
+      h1 {
+        color: var.$span-color-light;
+      }
+    }
+
+    form {
+      input,
+      textarea,
+      button {
+        color: white;
+        border: 1px solid grey;
       }
     }
   }

@@ -24,6 +24,7 @@ export const Navbar: React.FC = () => {
     { text: "about" },
     { text: "skills" },
     { text: "projects" },
+    { text: "contact" },
   ];
   return (
     <nav className="navbar">
