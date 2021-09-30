@@ -9,12 +9,15 @@ import { Navbar } from "./components/Navbar";
 import { ProjectsPage } from "./components/projects/ProjectsPage";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
+import { init } from "emailjs-com";
+import { emailjsObj } from "./keys";
 
 function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
     });
+    init(emailjsObj.userid);
   }, []);
 
   return (

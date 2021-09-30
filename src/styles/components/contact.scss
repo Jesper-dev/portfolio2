@@ -38,14 +38,6 @@
       font-size: var.$text-font-size-small;
       color: black;
       box-shadow: 0px 0px 10px 0px grey;
-
-      // @include var.mobileView {
-      //   width: 80%;
-      // }
-
-      // @include var.laptopLView {
-      //   width: 35%;
-      // }
     }
 
     textarea {
@@ -60,10 +52,6 @@
       font-size: var.$text-font-size-small;
       color: black;
       box-shadow: 0px 0px 10px 0px grey;
-
-      // @include var.mobileView {
-      //   width: 80%;
-      // }
     }
 
     button {
@@ -86,5 +74,15 @@
         width: 30%;
       }
     }
+  }
+
+  .emailSendState {
+    color: darkgreen;
+    font-size: var.$text-font-size-small;
+  }
+
+  .emailErrorState {
+    color: red;
+    font-size: var.$text-font-size-small;
   }
 }

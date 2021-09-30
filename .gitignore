@@ -13,6 +13,7 @@
 
 # misc
 /text.txt
+/src/keys.ts
 .DS_Store
 .env.local
 .env.development.local
