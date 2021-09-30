@@ -49,8 +49,8 @@
       width: 56px;
 
       @include var.mobileView {
-        height: 26px;
-        width: 52px;
+        height: 24px;
+        width: 50px;
       }
 
       input {
@@ -80,8 +80,8 @@
       width: 22px;
 
       @include var.mobileView {
-        height: 18px;
-        width: 18px;
+        height: 16px;
+        width: 16px;
       }
     }
 
