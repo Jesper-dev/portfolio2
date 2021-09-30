@@ -1,4 +1,4 @@
-@use '../utilities/variables' as var;
+@use "../utilities/variables" as var;
 
 .navbar {
   position: fixed;
@@ -12,6 +12,12 @@
   z-index: 10;
 
   @include var.mobileView {
+    position: static;
+    width: 100%;
+    height: 50px;
+  }
+
+  @include var.laptopLView {
     position: static;
     width: 100%;
     height: 50px;

@@ -1,0 +1,7 @@
+@use "../utilities/variables" as var;
+
+.contactContainer {
+  @include var.basic-flex-container-column;
+  height: 80vh;
+  width: 80%;
+}

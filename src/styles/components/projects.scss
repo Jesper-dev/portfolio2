@@ -1,4 +1,4 @@
-@use '../utilities/variables' as var;
+@use "../utilities/variables" as var;
 
 .projectsContainer {
   @include var.basic-flex-container-column;
@@ -6,6 +6,10 @@
   width: 80%;
 
   @include var.mobileView {
+    width: 90%;
+  }
+
+  @include var.laptopLView {
     width: 90%;
   }
 
@@ -22,6 +26,10 @@
     font-family: var.$font-style-second;
 
     @include var.mobileView {
+      width: 100%;
+    }
+
+    @include var.laptopLView {
       width: 100%;
     }
 
@@ -56,6 +64,10 @@
 
           @include var.mobileView {
             width: 200px;
+          }
+
+          @include var.laptopView {
+            width: 350px;
           }
         }
       }

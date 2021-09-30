@@ -1,12 +1,13 @@
-@use 'utilities/variables' as var;
+@use "utilities/variables" as var;
 
 //SASS Components here
-@use 'components/homePage';
-@use 'components/skills';
-@use 'components/about';
-@use 'components/navbar';
-@use 'components/projects';
-@use 'components/footer';
+@use "components/homePage";
+@use "components/skills";
+@use "components/about";
+@use "components/navbar";
+@use "components/projects";
+@use "components/contact";
+@use "components/footer";
 
 body {
   margin: 0%;

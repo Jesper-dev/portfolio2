@@ -69,3 +69,16 @@ $icon-font-size-mobile: 3rem;
     @content;
   }
 }
+
+//For small screens
+@mixin laptopLView {
+  @media (max-width: 1500px) {
+    @content;
+  }
+}
+
+@mixin laptopView {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
