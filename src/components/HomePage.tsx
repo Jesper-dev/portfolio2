@@ -7,7 +7,7 @@ export const HomePage: React.FC = () => {
       href: "https://www.linkedin.com/in/jesper-pettersson-218245179/",
       icon: "fab fa-linkedin-in",
     },
-    { href: "mailto:jesper@jesperp.se", icon: "fas fa-envelope" },
+    { href: "mailto:jesper.pettersson00@hotmail.com", icon: "fas fa-envelope" },
   ];
 
   return (
@@ -17,9 +17,6 @@ export const HomePage: React.FC = () => {
         <p>
           My name is <span>Jesper Pettersson</span> and I'm currently studying
           to become a <span>Front-End Developer</span>! <br /> <br />
-        </p>
-        <p className="lookingForContainer">
-          <em>Looking for freelance opportunities and also hiring jobs.</em>
         </p>
         <div className="linkContainer">
           {/* Renders all the icons/links on the home page */}

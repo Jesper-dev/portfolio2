@@ -44,10 +44,6 @@
         width: 35%;
       }
 
-      @include var.laptopLView {
-        width: 12%;
-      }
-
       &:hover {
         padding: 6px;
       }

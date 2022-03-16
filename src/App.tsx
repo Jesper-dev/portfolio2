@@ -29,7 +29,7 @@ function App() {
         <About />
         <Skills />
         <ProjectsPage />
-        <Contact />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </>
